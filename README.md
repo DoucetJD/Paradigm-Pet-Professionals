@@ -5,7 +5,6 @@ This is for the second task of C773. It includes a CSS stylesheet and HTML code 
   - Homepage
   - Dog page
   - Cat page
-  - FAQ page
   - Fish page
 
 The Fish page is not required, you will replace it with the animal you chose. I chose fish. 
