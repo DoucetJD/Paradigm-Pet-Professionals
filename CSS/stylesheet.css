@@ -73,3 +73,8 @@
     background-color: #6699CC;
 }
 
+.header {
+    background-image: url('../Images/kitten.jpg');
+    background-size: cover;
+    background-position: center;
+}
