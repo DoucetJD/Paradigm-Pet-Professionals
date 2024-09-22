@@ -2,12 +2,12 @@
 
   .logo {
     display: block;
+    padding: 20px;
   }
 
   .maindiv {
     display: block;
     height: 42%;
-    padding: 20px;
   }
 }
 
