@@ -25,4 +25,31 @@
 	border-radius: 5px;
 	padding: 7px;
 	cursor: pointer;
+    float: right;
+}
+
+.nav {
+    height: 250px;
+    margin-top: 30px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: #003B6D
+}
+
+.nav a {
+    float: left;
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid white
+}
+
+.nav a:first-of-type {
+    border-left: 2px solid white;
+}
+
+.nav a hover {
+    background-color: #6699CC;
 }
