@@ -9,7 +9,7 @@
 }
 
 #search {
-	margin: 0 20px 0 5px;
+	margin: 0 5px 0 5px;
 	padding: 5px;
 	font-size: 16px;
     float: right;
@@ -24,14 +24,23 @@
 	background-color: #003B6D;
 	color: white;
 	border-radius: 5px;
-	padding: 7px;
+	padding: 5px;
 	cursor: pointer;
     float: right;
 }
 
+@media screen and (max-width: 600px) {
+    .maindiv {
+        flex-direction: column;
+    }
+    #search {
+        margin-top: 1em;
+    }
+}
+
 .nav {
     height: 250px;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     height: 50px;
     line-height: 50px;
