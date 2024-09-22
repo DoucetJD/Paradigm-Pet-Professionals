@@ -39,12 +39,7 @@
         align-items: center;
     }
     #searchbutton {
-        width: 100%;
-        text-align: center;
-    }
-    .searchs {
-        width: 100%;
-        text-align: center;
+        width: 0.5em;
     }
 }
 
