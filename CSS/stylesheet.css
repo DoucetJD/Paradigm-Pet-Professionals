@@ -5,10 +5,10 @@
     margin: 0 auto;
   }
 
-  .maindiv {
+  .maindiv::after {
     display: block;
     padding: 5px;
-    text-align: center
+    text-align: center;
   }
 }
 
@@ -81,8 +81,6 @@ fieldset {
   padding: 5px;
   font-size: 16px;
   float: right;
-  display: block;
-  margin: 0 auto;
 }
 
 .searches {
@@ -114,8 +112,6 @@ fieldset {
   padding: 7px;
   cursor: pointer;
   float: right;
-  display: block;
-  margin: 0 auto;
 }
 
 h1 {
