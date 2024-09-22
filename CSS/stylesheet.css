@@ -33,13 +33,8 @@
     .maindiv {
         flex-direction: column;
     }
-    #search {
-        margin-top: 1em;
-        display: flex;
-        align-items: center;
-    }
-    #searchbutton {
-        width: 0.5em;
+    .searches {
+        flex-direction: row;
     }
 }
 
