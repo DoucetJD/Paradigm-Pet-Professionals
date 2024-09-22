@@ -1,0 +1,28 @@
+.maindiv {
+	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+}
+
+.logo {
+	padding: 5px;
+}
+
+#search {
+	margin: 0 20px 0 5px;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.searches {
+	float: right;
+	margin-top: 10px;
+}
+
+#searchbutton {
+	background-color: #003B6D;
+	color: white;
+	border-radius: 5px;
+	padding: 7px;
+	cursor: pointer;
+}
