@@ -1,17 +1,14 @@
 @media screen and (max-width: 517px) {
 
   .logo {
-    display: block;
-    position: relative;
-    top: 5px;
-    right: 5px;
-    bottom: 5px;
-    left: 5px;
+    display: grid;
+    place-items: center;
+
   }
 
   .maindiv {
     display: block;
-    height: 42%;
+    padding: 5px
   }
 }
 
@@ -84,6 +81,8 @@ fieldset {
   padding: 5px;
   font-size: 16px;
   float: right;
+  display: grid;
+  place-items: center;
 }
 
 .searches {
@@ -115,6 +114,8 @@ fieldset {
   padding: 7px;
   cursor: pointer;
   float: right;
+  display: grid;
+  place-items: center;
 }
 
 h1 {
