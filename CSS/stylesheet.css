@@ -35,6 +35,16 @@
     }
     #search {
         margin-top: 1em;
+        display: flex;
+        align-items: center;
+    }
+    #searchbutton {
+        width: 100%;
+        text-align: center;
+    }
+    .searchs {
+        width: 100%;
+        text-align: center;
     }
 }
 
