@@ -8,6 +8,7 @@
   .maindiv {
     display: block;
     height: 42%;
+    padding: 20px;
   }
 }
 
