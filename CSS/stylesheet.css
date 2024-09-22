@@ -43,6 +43,7 @@
         flex-direction: column;
     }
     .searches {
+        display: flex;
         flex-direction: row;
     }
 }
