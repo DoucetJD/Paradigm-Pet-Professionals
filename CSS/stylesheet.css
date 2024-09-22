@@ -12,6 +12,7 @@
 	margin: 0 20px 0 5px;
 	padding: 5px;
 	font-size: 16px;
+    float: right;
 }
 
 .searches {
@@ -49,6 +50,6 @@
     border-left: 2px solid white;
 }
 
-.nav a hover {
+.nav a:hover {
     background-color: #6699CC;
 }
