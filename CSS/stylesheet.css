@@ -152,3 +152,14 @@ form {
 textarea {
     resize: vertical;
 }
+
+.submitButton {
+    display: block;
+    margin: 0 20px 0 0;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    color: black;
+    margin-top: 7px;
+    border: 2px solid orange;
+}
