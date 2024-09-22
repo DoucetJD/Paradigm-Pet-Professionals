@@ -61,7 +61,8 @@
     padding: 0 20px 0 20px;
     text-decoration: none;
     color: white;
-    border-right: 2px solid white
+    border-right: 2px solid white;
+    height: 50px;
 }
 
 .nav a:first-of-type {
