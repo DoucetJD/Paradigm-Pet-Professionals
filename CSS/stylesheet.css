@@ -38,13 +38,6 @@
     .searches {
         flex-direction: row;
     }
-    form {
-        flex-direction: column;
-    }
-    .submitButton {
-        align-items: center; 
-    }
-}
 
 @media screen and (max-width: 320px) {
     .maindiv {
@@ -54,13 +47,6 @@
         display: flex;
         flex-direction: row;
     }
-    form {
-        flex-direction: column;
-    }
-    .submitButton {
-        align-items: center; 
-    }
-}
 
 .nav {
     margin-top: 20px;
@@ -133,12 +119,11 @@ html, body {
 }
 
 fieldset{
-    padding: 10px;
+    padding: 20px;
     margin: 20px auto;
-    display: flex;
+    display: block;
     border-radius: 5px;
     border: 2px solid #003B6D;
-    flex-direction: column;
 }
 
 form {
@@ -148,18 +133,16 @@ form {
 
 .forms p {
     display: table-cell;
-    padding-right: 10px;
 }
 
 .forms label {
     display: table-cell;
-    padding-right: auto;
+    padding-right: 10px;
 }
 
 .forms input {
     display: table-cell;
     margin: 10px 0 10px 0;
-    flex: 1;
 }
 
 textarea {
