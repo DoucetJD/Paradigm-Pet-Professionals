@@ -38,8 +38,8 @@
     .searches {
         flex-direction: row;
     }
-    .fieldset {
-        flex-direction: column;
+    form {
+        flex-direction: row;
     }
     .submitButton {
         align-items: center; 
@@ -53,6 +53,12 @@
     .searches {
         display: flex;
         flex-direction: row;
+    }
+    form {
+        flex-direction: row;
+    }
+    .submitButton {
+        align-items: center; 
     }
 }
 
@@ -124,7 +130,7 @@ fieldset{
     display: flex;
     border-radius: 5px;
     border: 2px solid #003B6D;
-    flex-direction: column;
+    width: fit-content;
 }
 
 html, body {
@@ -136,8 +142,15 @@ html, body {
 }
 
 form {
-    display: table;
+    display: flex;
     margin: 0 auto;
+    flex-direction: column;
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
 }
 
 .forms p {
@@ -153,6 +166,7 @@ form {
 .forms input {
     display: table-cell;
     margin: 10px 0 10px 0;
+    flex: 1;
 }
 
 textarea {
