@@ -62,6 +62,9 @@
     width: 90%;
     background-color: #003B6D;
     border-top-right-radius: 100px;
+}
+
+.sticky {
     position: sticky;
 }
 
