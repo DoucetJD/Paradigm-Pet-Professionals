@@ -31,6 +31,10 @@
     float: right;
 }
 
+.header {
+    background: linear-gradient(to right, #003B6D, #6699CC, #676767)
+}
+
 @media screen and (max-width: 600px) {
     .maindiv {
         flex-direction: column;
@@ -74,10 +78,6 @@
 
 .nav a:hover {
     background-color: #6699CC;
-}
-
-.header {
-    background: linear-gradient(to right, #003B6D, #6699CC, #676767)
 }
 
 .breadcrumbs {
