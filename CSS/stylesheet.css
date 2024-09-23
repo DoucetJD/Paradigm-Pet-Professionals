@@ -53,9 +53,9 @@
     text-align: center;
     height: 50px;
     line-height: 50px;
-    width: 100%;
+    width: 80%;
     background-color: #003B6D;
-    border-top-right-radius: 20%;
+    border-top-right-radius: 100px;
 }
 
 .nav a {
@@ -75,7 +75,7 @@
 }
 
 .header {
-    background: linear-gradient(to right, white, #6699cc)
+    background: linear-gradient(to right, white, #6699cc, #003B6D)
 }
 
 .breadcrumbs {
