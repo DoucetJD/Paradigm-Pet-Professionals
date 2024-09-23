@@ -5,7 +5,8 @@
 }
 
 .logo {
-	padding: 5px;
+	margin: 5px;
+    border: 2px solid #BDBDBD;
 }
 
 #search {
@@ -75,7 +76,7 @@
 }
 
 .header {
-    background: linear-gradient(to right, white, #6699cc, #003B6D)
+    background: linear-gradient(to right, #003B6D, #6699CC, #676767)
 }
 
 .breadcrumbs {
