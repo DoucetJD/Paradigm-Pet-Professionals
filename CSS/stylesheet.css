@@ -139,7 +139,7 @@ fieldset{
     border-radius: 5px;
     border: 2px solid #003B6D;
     width: fit-content;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 form {
