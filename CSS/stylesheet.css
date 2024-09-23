@@ -17,7 +17,7 @@
 
 .searches {
 	float: right;
-	margin-top: 10px;
+	margin: 10px;
 }
 
 #searchbutton {
@@ -53,7 +53,7 @@
     text-align: center;
     height: 50px;
     line-height: 50px;
-    width: 80%;
+    width: 90%;
     background-color: #003B6D;
     border-top-right-radius: 100px;
 }
