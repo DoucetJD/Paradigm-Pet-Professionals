@@ -42,6 +42,9 @@
     .searches {
         flex-direction: row;
     }
+    .formdiv {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -51,6 +54,9 @@
     .searches {
         display: flex;
         flex-direction: row;
+    }
+    .formdiv {
+        flex-direction: column;
     }
 }
 
@@ -64,12 +70,8 @@
     border-top-right-radius: 100px;
 }
 
-.sticky {
-    position: sticky;
-}
-
 .nav a {
-    padding: 0 25px 0 20px;
+    padding: 0 20px 0 20px;
     text-decoration: none;
     color: white;
     border-right: 2px solid white;
@@ -77,7 +79,6 @@
 }
 
 .nav a:first-of-type {
-    padding: 0 20px 0 20px;
     border-left: 2px solid white;
 }
 
@@ -138,6 +139,10 @@ form {
     margin: 0 auto;
 }
 
+.forms {
+    background-color: #6699CC;
+}
+
 .forms p {
     display: table-row;
 }
@@ -172,4 +177,15 @@ textarea {
 
 .nav-link.active {
     background-color: #6699CC;
+}
+
+.formdiv{
+    display: flex;
+    flex-direction: row;
+    background-color: #BDBDBD;
+}
+
+.formdiv p {
+    margin: 0 auto;
+    width: 90%;
 }
