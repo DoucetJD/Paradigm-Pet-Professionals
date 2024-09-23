@@ -135,23 +135,16 @@ html, body {
 fieldset{
     padding: 10px;
     margin: 20px auto;
-    display: flex;
+    display: block;
     border-radius: 5px;
     border: 2px solid #003B6D;
     width: fit-content;
-    flex-direction: column;
 }
 
 form {
-    display: flex;
+    display: table;
     margin: 0 auto;
-    flex-direction: row;
-}
-
-.forms {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1em;
+    align-items: row;
 }
 
 .forms p {
