@@ -7,6 +7,7 @@
 .logo {
 	margin: 5px;
     border: 2px solid #BDBDBD;
+    padding: 0;
 }
 
 #search {
@@ -36,6 +37,12 @@
     }
     .searches {
         flex-direction: row;
+    }
+    .fieldset {
+        flex-direction: column;
+    }
+    .submitButton {
+        align-items: center; 
     }
 }
 
@@ -117,6 +124,7 @@ fieldset{
     display: flex;
     border-radius: 5px;
     border: 2px solid #003B6D;
+    flex-direction: column;
 }
 
 html, body {
@@ -157,9 +165,11 @@ textarea {
     text-align: center;
     padding: 7px;
     border-radius: 5px;
-    color: black;
+    color: white;
     margin-top: 7px;
-    border: 2px solid #003B6D;
+    background-color: #003B6D;
+    cursor: pointer;
+    
 }
 
 .nav-link.active {
