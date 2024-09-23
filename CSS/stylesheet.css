@@ -7,7 +7,7 @@
 .logo {
 	margin: 5px;
     border: 2px solid #BDBDBD;
-    padding: 0;
+    padding-bottom: 0;
 }
 
 #search {
@@ -134,7 +134,7 @@ form {
 }
 
 .forms p {
-    display: table-cell;
+    display: table-row;
 }
 
 .forms label {
