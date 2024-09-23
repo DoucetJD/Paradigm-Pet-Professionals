@@ -32,7 +32,7 @@
 }
 
 .header {
-    background: linear-gradient(to right, #003B6D, #6699CC, #676767)
+    background: linear-gradient(to right, #003B6D, #6699CC, #676767);
 }
 
 @media screen and (max-width: 600px) {
