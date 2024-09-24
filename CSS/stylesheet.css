@@ -191,5 +191,5 @@ textarea {
 }
 .formdiv-2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
