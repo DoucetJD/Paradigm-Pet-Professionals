@@ -6,8 +6,11 @@
 
 .logo {
 	margin: 5px;
-    border: 2px solid #BDBDBD;
-    padding: 0;
+    border: 2px solid #003B6D;
+    padding: 5px 5px 1px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
 }
 
 #search {
@@ -15,6 +18,8 @@
 	padding: 5px;
 	font-size: 16px;
     float: right;
+    border: 2px solid #003B6D;
+    border-radius: 5px;
 }
 
 .searches {
@@ -33,31 +38,6 @@
 
 .header {
     background: linear-gradient(to right, #003B6D, #6699CC, #676767);
-}
-
-@media screen and (max-width: 600px) {
-    .maindiv {
-        flex-direction: column;
-    }
-    .searches {
-        flex-direction: row;
-    }
-    .formdiv {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .maindiv {
-        flex-direction: column;
-    }
-    .searches {
-        display: flex;
-        flex-direction: row;
-    }
-    .formdiv {
-        flex-direction: column;
-    }
 }
 
 .nav {
@@ -129,18 +109,22 @@ html, body {
 fieldset{
     padding: 20px;
     margin: 20px;
-    display: block;
+    display: flex;
     border-radius: 5px;
     border: 2px solid #003B6D;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+legend {
+    background-color: white;
+    border: 2px solid #003B6D;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 form {
-    display: table;
+    display: flex;
     margin: 0 auto;
-}
-
-.forms {
-    background-color: white;
 }
 
 .forms p {
@@ -167,31 +151,69 @@ textarea {
     text-align: center;
     padding: 7px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 7px;
-    background-color: #003B6D;
+    background-color: rgba(255, 255, 255, 0.8);
     cursor: pointer;
     text-decoration: none;
-    
+    border: 2px solid #003B6D;
+    border-radius: 5px;
 }
 
 .submitDiv {
-    background-color: #6699CC;
-    margin: 20px;
+    padding: 10px;
 }
 
 .nav-link.active {
     background-color: #6699CC;
 }
 
-.formdiv{
-    display: flex;
-    flex-direction: row;
-    background-color: #6699CC;
+.bottomDiv {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    border-top: 2px solid #003B6D;
 }
 
-.formdiv p {
-    margin: 20px;
+.resourceDiv {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../Images/2dog.jpg");
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+.resourceDiv > * {
+    flex: 1;
+}
+
+.resoruceBlocks {
+    display: grid;
+    grid-template-column: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../Images/11consult.jpg");
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.formdiv > * {
+    flex: 1;
+}
+
+.formdiv-p-span {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    border: 2px solid #003B6D;
+    border-radius: 5px;
 }
 
 #formPhoto {
@@ -199,3 +221,80 @@ textarea {
     height: 239px;
     width: 360px;
 }
+
+.pageLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pageLinksDiv {
+    padding: 10px;
+}
+
+.pageLinksDiv img {
+    border: 2px solid #003B6D;
+    border-radius: 5px;
+}
+
+/* Below are the media queries */
+
+@media screen and ( max-width: 1100px) {
+    .pageLinks {
+        flex-direction: column;
+    }
+    .bottomDiv {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .maindiv {
+        flex-direction: column;
+    }
+    .searches {
+        flex-direction: row;
+    } 
+    form {
+        flex-direction: column;
+    }
+    .pageLinks {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .maindiv {
+        flex-direction: column;
+    }
+    .searches {
+        flex-direction: row;
+    }
+    .bottomDiv {
+        flex-direction: column;
+    }  
+    form {
+        flex-direction: column;
+    }
+    .pageLinks {
+        flex-direction: column;
+    }
+    .pageLinks {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
