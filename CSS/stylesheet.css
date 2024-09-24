@@ -132,6 +132,7 @@ fieldset{
     display: block;
     border-radius: 5px;
     border: 2px solid #003B6D;
+    background-color: #BDBDBD;
 }
 
 form {
@@ -182,7 +183,6 @@ textarea {
 .formdiv{
     display: flex;
     flex-direction: row;
-    background-color: #BDBDBD;
     width: 30%;
 }
 
