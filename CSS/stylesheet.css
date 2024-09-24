@@ -132,6 +132,7 @@ fieldset{
     display: block;
     border-radius: 5px;
     border: 2px solid #003B6D;
+}
 
 form {
     display: table;
@@ -139,7 +140,7 @@ form {
 }
 
 .forms {
-    background-color: #6699CC;
+    background-color: white;
 }
 
 .forms p {
@@ -174,6 +175,10 @@ textarea {
     
 }
 
+.submitDiv {
+    background-color: #6699CC;
+}
+
 .nav-link.active {
     background-color: #6699CC;
 }
@@ -181,6 +186,7 @@ textarea {
 .formdiv{
     display: flex;
     flex-direction: row;
+    background-color: #6699CC;
 }
 
 .formdiv p {
@@ -189,6 +195,10 @@ textarea {
 .formdiv-2 {
     display: flex;
     flex-direction: column;
+}
+
+.formdiv-2 p{
+    margin: 0 auto;
 }
 
 #formPhoto {
