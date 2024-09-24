@@ -7,7 +7,7 @@
 .logo {
 	margin: 5px;
     border: 2px solid #BDBDBD;
-    padding-bottom: 0;
+    padding: 0;
 }
 
 #search {
@@ -132,8 +132,6 @@ fieldset{
     display: block;
     border-radius: 5px;
     border: 2px solid #003B6D;
-    background-color: #6699CC;
-}
 
 form {
     display: table;
@@ -187,9 +185,14 @@ textarea {
 
 .formdiv p {
     margin: 0 auto;
-    background-color: #BDBDBD;
 }
 .formdiv-2 {
     display: flex;
     flex-direction: column;
+}
+
+#formPhoto {
+    margin: 5px;
+    height: 239px;
+    width: 360px;
 }
