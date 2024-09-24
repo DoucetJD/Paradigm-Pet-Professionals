@@ -128,7 +128,7 @@ html, body {
 
 fieldset{
     padding: 20px;
-    margin: 20px auto;
+    margin: 20px;
     display: block;
     border-radius: 5px;
     border: 2px solid #003B6D;
@@ -163,7 +163,7 @@ textarea {
 
 .submitButton {
     display: block;
-    margin: 0 20px 0 0;
+    margin: 20px;
     text-align: center;
     padding: 7px;
     border-radius: 5px;
@@ -183,9 +183,10 @@ textarea {
     display: flex;
     flex-direction: row;
     background-color: #BDBDBD;
+    width: 30%;
 }
 
 .formdiv p {
     margin: 0 auto;
-    width: 90%;
+    width: 60%;
 }
