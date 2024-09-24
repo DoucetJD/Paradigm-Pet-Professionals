@@ -177,6 +177,7 @@ textarea {
 
 .submitDiv {
     background-color: #6699CC;
+    margin: 20px;
 }
 
 .nav-link.active {
@@ -190,11 +191,11 @@ textarea {
 }
 
 .formdiv p {
-    margin: 0 auto;
+    margin: 20px;
 }
 
 #formPhoto {
-    margin: 5px;
+    margin: 5px 20px 20px 20px;
     height: 239px;
     width: 360px;
 }
