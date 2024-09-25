@@ -274,6 +274,13 @@ textarea {
     text-align: center;
 }
 
+#petInfoOverflow {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
 /* Below are the keyframes and associated classes*/
 
 @keyframes logoAnimation {
