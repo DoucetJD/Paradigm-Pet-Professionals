@@ -11,6 +11,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     background-color: white;
+    animation: logoAnimation 1s;
 }
 
 #search {
@@ -50,6 +51,12 @@
     border-top-right-radius: 100px;
 }
 
+.nav-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .nav a {
     padding: 0 20px 0 20px;
     text-decoration: none;
@@ -81,12 +88,21 @@
 }
 
 footer {
+    display: flex;
     width: 100%;
     margin: 0 auto 0 auto;
     padding: 10px 0 10px 0;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: #003B6D;
     color: white;
+    height: 50px;
+}
+
+footer p {
+    padding: 0 20px 0 20px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
 }
 
 h3 {
@@ -237,6 +253,41 @@ textarea {
     border-radius: 5px;
 }
 
+.petInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.petInfoPic {
+    border: 2px solid #003B6D;
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
+
+.petInfoContent {
+    padding: 10px;
+}
+
+.petInfoContent h3 {
+    text-align: center;
+}
+
+/* Below are the keyframes and associated classes*/
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+
+
 /* Below are the media queries */
 
 @media screen and ( max-width: 1100px) {
@@ -245,6 +296,15 @@ textarea {
     }
     .bottomDiv {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .petInfo {
+        flex-direction: column;
+    }
+    .petInfoPic {
+        width: 80%;
     }
 }
 
@@ -260,6 +320,17 @@ textarea {
     }
     .pageLinks {
         flex-direction: column;
+    }
+    .nav-menu {
+        position: static;
+        transform: none;
+        left: auto;
+    }
+    .petInfo {
+        flex-direction: column;
+    }
+    .petInfoPic {
+        width: 80%;
     }
 }
 
@@ -279,8 +350,16 @@ textarea {
     .pageLinks {
         flex-direction: column;
     }
-    .pageLinks {
+    .nav-menu {
+        position: static;
+        transform: none;
+        left: fit;
+    }
+    .petInfo {
         flex-direction: column;
+    }
+    .petInfoPic {
+        width: 80%;
     }
 }
 
